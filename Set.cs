@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Class_Set
 {
-    internal class Set<T> : IEnumerable<T>
+    public class Set<T> : IEnumerable<T>
     {
         public List<T> Elements { get; private set; } = new List<T>();
         public int Length
